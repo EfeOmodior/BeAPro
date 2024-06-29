@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(30, 18, 37);
+    height: 2000px;
+    width: none;
+    overflow-x: hidden;
+    
+}
+
+#title {
+    width: 100%;
+    height: 90px;
+    background-color: rgba(66, 28, 180, 0.519);
+    text-align: center;
+    justify-content: center;
+    margin-top: 0;
+}
+
+#title img {
+    position: inherit;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 90px;
+    width: 150px;
+}
+
+#menu {
+    height: 800px;
+    width: 1400px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: goldenrod;
+    
+}
+
+h2 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 23px;
+    margin: auto;
+    padding-top: 75px;
+    margin-right: 370px;
+}
+
+
+#center {
+    position: absolute;
+    margin-bottom: 300px;
+    
+}
+
+button:hover {
+    height: 60px;
+    width: 210px;
+    background-color: rgb(17, 170, 172);
+    color:wheat;
+    border: 8px solid lawngreen;
+    padding: 0px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    display: inline-flex;
+    background-color: rgb(17, 170, 172);
+    color:wheat;
+    border: none;
+    padding: 0px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#extra {
+    margin-top: 20px;
+    height: 1200px;
+    width: 1400px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: end;
+    background-color: rgb(32, 32, 107);
+    color:aliceblue;
+    margin: auto;
+    padding: 30px;
+    z-index: 1;
+}
+
+#extra h1 {
+    font-size: 33px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: inherit;
+    margin-top: 0;
+}
+
+#extra p {
+    font-size: 19px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: inherit;
+    margin: auto;
+}
+
+
+.buttons  {
+    display: block;
+    padding: 300px;
+    margin-right: 700px;
+    margin-left: 300px;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#menu img {
+    height: 600px;
+    width: 500px;
+    position: absolute;
+    padding: 5px;
+    margin-top: 209px;
+
+}
+
+#extra img {
+    height: 700px;
+    width: 600px;
+    position: inherit;
+    
+}
+
+
+
+#bron {
+    margin-left: 1000px;
+}
+
+
+
+.buttons button {
+    display: block;
+}
+
+span {
+    padding-bottom: 40px;
+}
+
+#start {
+    height: 800px;
+    width: 1400px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: goldenrod;
+    display: none;
+    
+}
+
+#settings {
+    height: 800px;
+    width: 1400px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: goldenrod;
+    display: none;
+}
+
+#settings button {
+    font-size: 20px;
+    align-items: center;
+
+}
+
+#enterName {
+    height: 800px;
+    width: 1400px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: goldenrod;
+    z-index: 2;
+    display: none;
+}
+
+#enterName input {
+    position: inherit;
+    justify-content: center;
+    align-items: center;
+    margin-right: 600px;
+    margin-left: 550px;
+    margin-top: 200px;
+    height: 90px;
+    width: 300px;
+    background-color:aliceblue;
+    border: 9px solid rgb(30, 18, 37);
+    border-radius: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+h1 {
+    font-family: monospace;
+    text-align: center;
+}
+
+#start button {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Background of the scrollbar track */
+::-webkit-scrollbar-track {
+    background: #373333;
+}
+
+/* Handle of the scrollbar */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle of the scrollbar on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

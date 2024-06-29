@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <audio id="click" src = "click-21156.mp3"></audio>
+    <div id = "title"><a href ="index.html" ><img src ="logo-png.png"></a></div>
+    <div id = "menu">
+        <img onload="slide()" id = "bron" src = "lebron.png">
+        <img onload="slide()" id = "ronny" src = "ronaldo.png">
+        <div id = "center">
+        <h2 >Begin your journey of becoming a professional Athlete</h2>
+        <div class = "buttons">
+           <button onclick = "game()">START</button>
+           &nbsp;
+           <button onclick = "settings()">SETTINGS</button>
+           &nbsp;
+            <button>CONTACT</button>
+         </div>
+         </div>
+    </div>
+    <div id = "start">
+        <h1>Welcome to Be A Pro!<br>Choose a sport:</h1>
+        <button onclick = "enterName()">Soccer<img></button>
+        <button onclick = "enterName()">Basketball<img></button>
+        <button>Football(Coming Soon)</button>
+    </div>
+    <div id = "settings">
+        <button onclick = "darkmode()">Toggle dark mode</button>
+    </div>
+    <div id = "extra">
+        <h1>Be A Pro - An immersive experience that simulates the life of a pro athlete.<br>
+            Click the start button above to begin your journey and create your pro player.</h1>
+            <p>Free to play, no ads, no interruptions.</p>
+        <img id = "neymar" src = "neymar.png">
+        <img id= "kyrie" src = "kyrie.png">
+    </div>
+    <div id = "enterName">
+        <h1>Enter a name for your player:</h1>
+        <input id ="nameEntry" type = "text">
+        <button onclick = "welcomeName()">Enter</button>
+        <h1 id = "welcomeN"></h1>
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
